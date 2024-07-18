@@ -26,7 +26,7 @@ def plot_intensities(input_file):
     plt.show()
 
 # Define the input file
-input_file = r"C:\Users\Pubudu Wijesinghe\Desktop\output\test29_1160.txt"
+input_file = r"g:\.shortcut-targets-by-id\0B8-gGFa6hkR4XzJJMDlqZXVKRk0\ansom\Data\THz 1\Qdots spectra\processed\Pos3\aa_final.txt"
 
 # Run the plotting function
 plot_intensities(input_file)

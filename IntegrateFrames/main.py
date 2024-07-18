@@ -15,9 +15,9 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 
 # Define the input and output folders
-input_folder = r"G:\.shortcut-targets-by-id\0B8-gGFa6hkR4XzJJMDlqZXVKRk0\ansom\Data\THz 1\Qdots spectra\exp2"
-output_folder = r"G:\.shortcut-targets-by-id\0B8-gGFa6hkR4XzJJMDlqZXVKRk0\ansom\Data\THz 1\Qdots spectra\processed"
-output_file = r"G:\.shortcut-targets-by-id\0B8-gGFa6hkR4XzJJMDlqZXVKRk0\ansom\Data\THz 1\Qdots spectra\processed\aa_final.txt"
+input_folder = r"G:\.shortcut-targets-by-id\0B8-gGFa6hkR4XzJJMDlqZXVKRk0\ansom\Data\THz 1\Qdots spectra\Position Test\around 10\run3"
+output_folder = rf"{input_folder}\..\processed\run3"
+output_file = rf"{output_folder}\aa_final.txt"
 
 def process_file(input_file, output_file):
     # Dictionary to store the sum of intensities for each wavelength
@@ -93,6 +93,7 @@ def plot_averaged_intensities(input_file):
     # Plot the data
     plt.figure(figsize=(10, 6))
     plt.plot(wavelengths, intensities, label='Averaged Intensity')
+    plt.xlim(695, 800)
     plt.xlabel('Wavelength')
     plt.ylabel('Averaged Intensity')
     plt.title('Averaged Intensity vs. Wavelength')
