@@ -1,0 +1,17 @@
+Hello Patrick,
+
+Thank you for registering your copy of the SITK(R) for LabVIEW software.
+Your license file is attached.  Save it to your LabVIEW folder (usually
+C:\Program Files\National Instruments\LabVIEW 8.0).
+
+We have released a new version of the SITK(R) software.  As your purchase is
+within the 1 year warranty period, you are entitled to this upgrade for
+free.  The link to download it from our FTP site is:
+http://rcubedsw.com/download/Setup_SITKLV_2113_Standard.exe.  The license
+file enclosed will cover the new software version.
+
+If you have any questions or problems, please let me know.
+
+Best regards,
+Terry Rizzo
+R Cubed Software
